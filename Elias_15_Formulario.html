@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Elías González</title>
+    <link rel="stylesheet" href="Elias_15_Formulario.css">
+</head>
+<body>
+
+<h1 class="titulo">Formulario Completo</h1>
+
+<form action="https://example.com" method="GET" target="_blank" class="formulario">
+    <fieldset class="grupo">
+        <legend>Datos Personales</legend>
+
+        <div class="campo">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+
+        <div class="campo">
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" min="1" max="100">
+        </div>
+
+        <div class="campo">
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="600 123 456">
+        </div>
+
+        <div class="campo">
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo" required>
+        </div>
+    </fieldset>
+
+    <fieldset class="grupo">
+        <legend>Preferencias</legend>
+
+        <div class="campo">
+            <label>Género:</label>
+            <div class="radio-group">
+                <label><input type="radio" name="genero" value="hombre"> Hombre</label>
+                <label><input type="radio" name="genero" value="mujer"> Mujer</label>
+                <label><input type="radio" name="genero" value="otro"> Otro</label>
+            </div>
+        </div>
+
+        <div class="campo">
+            <label for="pais">País:</label>
+            <select id="pais" name="pais">
+                <option value="espana">España</option>
+                <option value="mexico">Francia</option>
+                <option value="argentina">EEUU</option>
+                <option value="argentina">México</option>
+                <option value="argentina">Marruecos</option>
+            </select>
+        </div>
+
+        <div class="campo">
+            <label for="intereses">Intereses:</label>
+            <select id="intereses" name="intereses" multiple size="3">
+                <option value="3d">Impresión 3D</option>
+                <option value="informatica">Informática</option>
+                <option value="robotica">Robótica</option>
+                <option value="videojuegos">Videojuegos</option>
+            </select>
+        </div>
+
+        <div class="campo">
+            <label><input type="checkbox" id="subs" name="subs"> Suscribirse a novedades</label>
+        </div>
+
+    </fieldset>
+
+    <fieldset class="grupo">
+        <legend>Mensaje</legend>
+
+        <div class="campo">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" placeholder="Escribe aquí..." required></textarea>
+        </div>
+    </fieldset>
+
+    <button type="submit" class="btn">Enviar</button>
+
+</form>
+
+</body>
+</html>

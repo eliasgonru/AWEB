@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{ 
+    font-size: 62.5%; 
+    scroll-behavior: smooth;
+}
+
+body{ 
+    font-size: 1.6rem; 
+    background-color: #111111; 
+    color: #FFFFFF;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+    padding: 2rem;
+    background-color: #E10600; 
+    color: #FFFFFF;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem 0;
+    background-color: #222222; 
+}
+
+nav a{
+    text-decoration: none;
+    background-color: #E10600; 
+    color: #FFFFFF;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+}
+
+nav a:hover{
+    background-color: #B10000; 
+}
+
+.cabecera{
+    background-image: url(img/nissan370Z.jpg.jpg);
+    height: 25rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 12px;
+    margin: 2rem auto;
+    width: 90%;
+}
+
+main{
+    width: 90%;
+    margin: 2rem auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding-bottom: 5rem;
+}
+
+section{
+    background-color: #222222; 
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+section h3{
+    background-color: #E10600; 
+    color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+section p{
+    color: #CCCCCC;
+    line-height: 1.5;
+}
+
+footer{ 
+    background-color: #000000;
+    color: #CCCCCC;
+    text-align: center;
+    padding: 2rem;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-top: 2rem;
+}

@@ -1,0 +1,55 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: white;
+    padding-bottom: 3rem;
+}
+
+header{
+    background-color: rgb(150, 0, 0);
+    padding: 2rem;
+    text-align: center;
+}
+
+.galeria-grid{
+    width: 90%;
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(3, 250px); 
+    gap: 1rem;
+}
+
+.galeria-grid img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    /* Animación suave */
+    transition: transform 0.5s ease, filter 0.5s ease;
+    border-radius: 10px;
+}
+
+.galeria-grid img:hover{
+    transform: scale(1.1);
+    filter: grayscale(80%);
+}
+
+.galeria-grid img:nth-child(3n):hover{
+    transform: rotate(3deg) scale(1.05);
+    filter: brightness(120%);
+}
+
+footer{
+    text-align: center;
+    margin-top: 3rem;
+    padding: 1rem;
+    background-color: #222;
+}
