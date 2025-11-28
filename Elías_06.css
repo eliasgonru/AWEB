@@ -1,0 +1,56 @@
+/*Menus Horizontales y Verticales
+Elías González Ruiz
+22 de Octubre 2025*/
+
+*{
+    box-sizing:border-box
+    margin 0px;
+    padding: 0px;
+}
+
+h1{
+    text-align: center;
+    color: brown;
+    text-shadow: black 1px 1px 2px;
+}
+
+.menuFlex{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto ;
+    
+    
+}
+
+.menuFlex a{
+    text-decoration: none;
+    background-color: rgb(236, 236, 159);
+    color: black;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+
+.menuFlex a:hover{
+    background-color: rgb(213, 171, 171);
+}
+
+.menuGrind{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.menuGrind a{
+    text-decoration: none;
+    background-color: beige;
+    color: black;
+    padding: 20px;
+}
+
+.menuGrind a:hover{
+    background-color: rgb(213, 171, 171);
+}

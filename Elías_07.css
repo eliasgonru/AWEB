@@ -1,0 +1,40 @@
+/**
+    CSS Listas Octubre 2025
+    Elías González Ruiz
+**/
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1{
+    margin: 25px auto;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: cadetblue;
+    text-shadow: black 2px 2px 5px;
+}
+
+section{
+    background-color: aquamarine;
+    width: 80%;
+    margin: auto;
+    border: 5px dotted;
+    padding: 20px;
+    border-top-left-radius: 25px;
+}
+.listaS{
+    list-style-type: lower-alpha;
+}
+.listaP{
+    list-style-type: upper-alpha;
+}
+
+
+.listaP > li:first-child{
+    background-color: brown;
+}
+.listaP > li:nth-child(4){
+    color: red;
+    font-size: 20px;
+}

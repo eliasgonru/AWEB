@@ -1,0 +1,29 @@
+/*
+PRACTICA 3 CSS
+Este fichero va a ser nuestra hoja profesional de estilos.
+Sí señor!! Esto va cojiendo forma.
+*/
+p{
+    color: blue;
+}
+
+pre{
+    color: deeppink;
+    background-color: rgb(243, 225, 235);
+}
+h1{
+    background-color: rgb(255, 0, 242);
+    color: white;
+    border: solid;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+body{
+    background-color: rgb(168, 252, 245);
+}

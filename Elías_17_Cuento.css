@@ -1,0 +1,41 @@
+*{
+    margin:10px;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+*::selection{
+    background-color: brown;
+}
+#titulo::before,#titulo::after{
+    content:"''";
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#titulo{
+    color: white;
+    text-transform: lowercase;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+main{
+    padding: 10px;
+    background-image: linear-gradient(to bottom, rgb(212, 96, 96), white);
+}
+article{
+    margin-top: 50px;
+    font-size: 1.5em;
+    text-align: justify;
+    column-count: 3;
+    column-gap: 2em;
+    column-rule: 3px solid brown;
+}
+p::first-letter{
+    font-size: 3em;
+    color: brown;
+}
+p::first-line{
+    color: rgb(80, 80, 80);
+}
